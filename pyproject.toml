@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=77", "wheel"]
+requires = ["setuptools>=84.2.1", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -12,7 +12,7 @@ license-files = ["LICENSE.md"]
 authors = [{ name = "{{AUTHOR}}", email = "you@example.com" }]
 requires-python = ">=3.10"
 dependencies = [
-    "Django>=5.2,<6.2",
+    "Django>=5.2.19,<6.2",
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -33,10 +33,10 @@ classifiers = [
 
 [project.optional-dependencies]
 dev = [
-    "pre-commit>=4.3",
-    "ruff>=0.17",
-    "pytest>=9.0",
-    "pytest-cov>=7.0",
+    "pre-commit>=4.6.2",
+    "ruff>=0.17.5",
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
     "pytest-django>=4.14",
     "doc8>=2.0",
 ]
